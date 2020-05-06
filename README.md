@@ -1,11 +1,45 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome USER_NAME,
+Welcome Sara Oliver,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
 ## Gitpod Reminders
 
+
+`pip3 install django`
+
+`django-admin startproject django_auth .`
+
+`django-admin startapp accounts`
+go to settings *installed apps* and pop in a string 'accounts`
+
+`python manage.py migrate`
+
+should run -all *ok*
+
+then check with the following:
+
+`python3 manage.py runserver`
+
+quit server with CONTROL -C
+
+`python3 manage.py createsuperuser`
+Email address:
+Password:
+Password again:
+Superuser created successfully.
+
+`python3 manage.py runserver`
+
+Log into the admin panel:
+https://8000-d44dcedd-d3c3-47b5-8998-62a3d7582fef.ws-eu01.gitpod.io/admin/
+
+
+
+
+
+__//__________//
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
 `python3 -m http.server`
