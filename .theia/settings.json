@@ -15,5 +15,5 @@
       "**/.theia": true,
    },
 "emmet.extensionsPath": ".theia",
-"python.pythonPath": "/bin/python3"
+"python.pythonPath": "/home/gitpod/.pyenv/versions/3.8.2/bin/python"
 }
