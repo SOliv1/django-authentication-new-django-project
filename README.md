@@ -6,6 +6,7 @@ This is the Code Institute student template for Gitpod. We have preinstalled all
 
 ## Gitpod reminders
 
+`npm install -g heroku`
 
 `pip3 install django`
 
