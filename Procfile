@@ -1,1 +1,1 @@
-web: django_new_django.wsgi:application
+web: django django_auth.wsgi:application
