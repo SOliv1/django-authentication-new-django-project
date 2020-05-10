@@ -1,1 +1,1 @@
-web: python manage.py 
+web: django_new_django.wsgi:application
