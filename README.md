@@ -33,6 +33,8 @@ Superuser created successfully.
 
 `python3 manage.py runserver`
 
+`pip install --upgrade requirements.txt`
+
 Log into the admin panel:
 https://8000-d44dcedd-d3c3-47b5-8998-62a3d7582fef.ws-eu01.gitpod.io/admin/
 
