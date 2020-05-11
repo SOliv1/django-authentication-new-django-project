@@ -33,6 +33,10 @@ Superuser created successfully.
 
 `python3 manage.py runserver`
 
+I had issues and then made aware i am using wrong version of django and reinstall with version 1.11.24` in line with video instructions: 
+
+`pip3 install django==1.11.24`
+
 `pip install --upgrade requirements.txt`
 
 Log into the admin panel:
