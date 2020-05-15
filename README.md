@@ -42,10 +42,16 @@ I had issues and then made aware i am using wrong version of django and reinstal
 Log into the admin panel:
 https://8000-d44dcedd-d3c3-47b5-8998-62a3d7582fef.ws-eu01.gitpod.io/admin/
 
+## Bootstrap
 
-
-
-
+https://getbootstrap.com/
+* grab cdn links and add to the head of the base html
+* componanents / navbar
+* `pip3 install django_forms_bootstrap`
+* include this in your settings / installed apps ('django_forms_bootstrap',)
+* add {% bootstrap tags %} in the registration html page
+* create static folder / inside that create css folder / inside that create styles.css
+    and add link in base html and add {% load staticfiles%} above the html tag in base.html
 __//__________//
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
